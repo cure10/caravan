@@ -23,9 +23,53 @@ main {
   background-color: #eeeeee;
 }
 
+.main-content:last-child {
+  margin-right: 0;
+}
+
+.main-item1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-item2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-item3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-mini {
+  padding: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.main-title {
+  margin: 15px 0 5px;
+}
+
+main p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 footer {
-  width: cover;
   height: 50px;
-  margin-top: 50px;
   background-color: #aaaaaa;
 }
